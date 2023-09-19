@@ -10,7 +10,7 @@ function findHighestAlphabet(alphabets) {
     return alphabets.reduce((highest, current) => current > highest ? current : highest);
 }
 
-router.get('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send("Your App is working");
 });
 
